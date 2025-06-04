@@ -8,7 +8,10 @@ const mapping = JSON.parse(fs.readFileSync('mapping.json', 'utf8'));
 const codeToEmail = {};
 mapping.forEach(row => { codeToEmail[row.code] = row.email; });
 
-const pool = new Pool(); // <--- ตรงนี้แค่นี้พอ
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false }
+}); // <--- ตรงนี้แค่นี้พอ
 
 app.get('/file/:code', async (req, res) => {
   const code = req.params.code;
