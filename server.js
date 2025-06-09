@@ -30,7 +30,7 @@ app.get('/file/:code', async (req, res) => {
   try {
     await pool.query(
       'INSERT INTO clicklog(email, code, ip, useragent, time) VALUES ($1, $2, $3, $4, $5)',
-      [email, code, ip.replace(/[\r\n,]/g,''), userAgent.replace(/[\r\n,]/g,''), time]
+      [email, code, ip.replace(/\r|\n|,/g,''), userAgent.replace(/\r|\n|,/g,''), time]
     );
   } catch (err) {
     console.error('Log insert error:', err); // log error
