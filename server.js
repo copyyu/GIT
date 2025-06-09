@@ -17,6 +17,8 @@ app.get('/file/:code', async (req, res) => {
   const code = req.params.code;
   const email = codeToEmail[code];
 
+  console.log('code:', code, 'email:', email); // log debug
+
   if (!email) {
     return res.redirect('https://www.google.com/404');
   }
@@ -31,7 +33,7 @@ app.get('/file/:code', async (req, res) => {
       [email, code, ip.replace(/[\r\n,]/g,''), userAgent.replace(/[\r\n,]/g,''), time]
     );
   } catch (err) {
-    console.error('Log insert error:', err);
+    console.error('Log insert error:', err); // log error
   }
 
   res.redirect('https://drive.google.com/file/d/1JcI3u9dA_XXXXXX/view?usp=sharing');
