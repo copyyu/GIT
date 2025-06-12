@@ -1,27 +1,36 @@
 [
   {
     "email": "chayapol.ji@ku.th",
-    "token": "dc087aa6-5cfd-4967-a480-e8e5da5b818c",
-    "code": "KFf0ao"
+    "token": "56e259b4-f78c-416a-b65e-a46394621c35",
+    "code": "GuE0Wt",
+    "group": "group1"
   },
   {
     "email": "moonlightvilip@gmail.com",
-    "token": "87c57fb9-a696-4bce-a0fb-617066c7d20a",
-    "code": "rvD4iq"
+    "token": "d603fdd1-5db0-466b-9ab2-5a96e27be194",
+    "code": "T9xgx0",
+    "group": "group2"
   },
   {
     "email": "c@company.com",
-    "token": "a4d7eb6e-bb13-4cbb-a8f5-cba494dfb4fe",
-    "code": "RHDtiV"
+    "token": "3fb2f76b-fd0e-418a-a6d9-f7f77e4f5e64",
+    "code": "WrgQ9r",
+    "group": "group3"
   },
   {
     "email": "apongsa@git.or.th",
-    "token": "f0da982d-c213-47bd-8d7f-eb942726716b",
-    "code": "KZOc0l"
+    "token": "0751e27c-f882-427f-9e55-6c9ce08b85ef",
+    "code": "B3PJCm"
   },
   {
     "email": "bseksan@git.or.th",
-    "token": "50980d82-33f2-45ee-8df7-0c3e1dfbfe79",
-    "code": "a8w5Ja"
+    "token": "c47ddbd1-f315-47f5-b42c-4202a558f290",
+    "code": "L32ZUb"
+  },
+  {
+    "email": "copyyu.01@gmail.com",
+    "token": "2e7b61b7-dbee-4f81-9cc4-d76449865576",
+    "code": "jHN6DQ",
+    "group": "group4"
   }
 ]
