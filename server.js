@@ -3,6 +3,11 @@ const fs = require('fs');
 const { Pool } = require('pg');
 require('dotenv').config(); // เผื่อยังไม่ได้ require dotenv
 const app = express();
+const dayjs = require('dayjs');
+const utc = require('dayjs/plugin/utc');
+const timezone = require('dayjs/plugin/timezone');
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 const mapping = JSON.parse(fs.readFileSync('mapping.json', 'utf8'));
 const codeToEmail = {};
@@ -17,7 +22,9 @@ app.get('/file/:code', async (req, res) => {
   const code = req.params.code;
   const email = codeToEmail[code];
 
-  console.log('code:', code, 'email:', email); // log debug
+  // เวลาไทย
+  const thaiTime = dayjs().tz('Asia/Bangkok').format('YYYY-MM-DD HH:mm:ss');
+  console.log('code:', code, 'email:', email, 'เวลาไทย:', thaiTime); // log debug
 
   if (!email) {
     return res.redirect('https://www.google.com/404');
@@ -25,7 +32,7 @@ app.get('/file/:code', async (req, res) => {
 
   const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress || '';
   const userAgent = req.get('User-Agent') || '';
-  const time = new Date().toISOString();
+  const time = dayjs().tz('Asia/Bangkok').format('YYYY-MM-DD HH:mm:ss');
 
   try {
     await pool.query(
