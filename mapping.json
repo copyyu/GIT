@@ -9,7 +9,7 @@
     "email": "moonlightvilip@gmail.com",
     "token": "d603fdd1-5db0-466b-9ab2-5a96e27be194",
     "code": "T9xgx0",
-    "group": "group2"
+    "group": "group1"
   },
   {
     "email": "c@company.com",
@@ -17,20 +17,35 @@
     "code": "WrgQ9r",
     "group": "group3"
   },
+
   {
     "email": "apongsa@git.or.th",
     "token": "0751e27c-f882-427f-9e55-6c9ce08b85ef",
-    "code": "B3PJCm"
+    "code": "B3PJCm",
+    "group": "group2"
   },
   {
     "email": "bseksan@git.or.th",
     "token": "c47ddbd1-f315-47f5-b42c-4202a558f290",
-    "code": "L32ZUb"
+    "code": "L32ZUb",
+    "group": "group2"
+  },
+  {
+    "email": "asassa@company.com",
+    "token": "3fb2f76b-fd0e-418a-a6d9-f7f77e4f5e64",
+    "code": "WrgQ9r",
+    "group": "group4"
   },
   {
     "email": "copyyu.01@gmail.com",
     "token": "2e7b61b7-dbee-4f81-9cc4-d76449865576",
     "code": "jHN6DQ",
     "group": "group4"
+  },
+  {
+    "email": "sekkapol@git.or.th",
+    "token": "2e7b61b7-dbee-4f81-9cc4-d76449865576",
+    "code": "jHN6DQ",
+    "group": "group2"
   }
 ]
