@@ -1,51 +1,52 @@
 [
   {
     "email": "chayapol.ji@ku.th",
-    "token": "56e259b4-f78c-416a-b65e-a46394621c35",
-    "code": "GuE0Wt",
-    "group": "group1"
+    "token": "e42f9015-8d81-4a66-83fe-fb66c7d80cd0",
+    "code": "yoRUeJ"
   },
   {
     "email": "moonlightvilip@gmail.com",
-    "token": "d603fdd1-5db0-466b-9ab2-5a96e27be194",
-    "code": "T9xgx0",
-    "group": "group1"
+    "token": "8b09a9c8-e68e-4e26-b84b-6edf5c259a7f",
+    "code": "4CjBEs"
   },
   {
     "email": "c@company.com",
-    "token": "3fb2f76b-fd0e-418a-a6d9-f7f77e4f5e64",
-    "code": "WrgQ9r",
-    "group": "group3"
+    "token": "09cefeb4-aa4d-4685-9b8d-98d6f5e20b5b",
+    "code": "cOdFnG"
   },
-
   {
     "email": "apongsa@git.or.th",
-    "token": "0751e27c-f882-427f-9e55-6c9ce08b85ef",
-    "code": "B3PJCm",
-    "group": "group2"
+    "token": "7c9263d2-b385-4c31-8468-ab1459d8d367",
+    "code": "mPd53K"
   },
   {
     "email": "bseksan@git.or.th",
-    "token": "c47ddbd1-f315-47f5-b42c-4202a558f290",
-    "code": "L32ZUb",
-    "group": "group2"
-  },
-  {
-    "email": "asassa@company.com",
-    "token": "3fb2f76b-fd0e-418a-a6d9-f7f77e4f5e64",
-    "code": "WrgQ9r",
-    "group": "group4"
+    "token": "38fde508-a0f2-4b4e-b259-f4006d036016",
+    "code": "0ObKVM"
   },
   {
     "email": "copyyu.01@gmail.com",
-    "token": "2e7b61b7-dbee-4f81-9cc4-d76449865576",
-    "code": "jHN6DQ",
-    "group": "group4"
+    "token": "f5ad9ed8-0558-48d7-9031-0005e42f56a3",
+    "code": "XuJNUS"
   },
   {
-    "email": "sekkapol@git.or.th",
-    "token": "2e7b61b7-dbee-4f81-9cc4-d76449865576",
-    "code": "jHN6DP",
-    "group": "group2"
+    "email": "bseksan@git.or.th",
+    "token": "da790abe-05be-4a47-b9ab-958ff730fb07",
+    "code": "bvnN1b"
+  },
+  {
+    "email": "materking7661@gmail.com",
+    "token": "db43df21-f8cd-4680-bd6d-8df7909ab918",
+    "code": "ebW3gv"
+  },
+  {
+    "email": "pasin.h@ku.th",
+    "token": "7845adc7-5f95-41f2-868e-a13edbac4663",
+    "code": "889aF8"
+  },
+  {
+    "email": "it@git.or.th",
+    "token": "41ac5890-74ce-46ef-9cc6-6fa2653a256d",
+    "code": "dOVqnL"
   }
 ]
