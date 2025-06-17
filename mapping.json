@@ -444,7 +444,7 @@
     "code": "snunthanee_code",
     "group": "ผู้บริหาร / เจ้าของกิจการ"
   },
-  
+
   {
     "email": "rd@git.or.th",
     "code": "MdtUD9",
@@ -509,5 +509,10 @@
     "email": "gitresearch@git.or.th",
     "code": "HdQjtM",
     "group": "อื่นๆ"
+  },
+  {
+    "email": "chayapol.ji@ku.th",
+    "code": "yyyy",
+    "group": "01"
   }
 ]  
